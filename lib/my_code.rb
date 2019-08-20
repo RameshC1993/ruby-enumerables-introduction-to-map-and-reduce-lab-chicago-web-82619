@@ -14,7 +14,7 @@ def map_to_square(numbers)
   numbers.map {|num| num * num}
 end
 
-def reduce_to_total(array)
+def reduce_to_total(array, number)
   array.reduce {|sum, num| num + sum}
 end
 
