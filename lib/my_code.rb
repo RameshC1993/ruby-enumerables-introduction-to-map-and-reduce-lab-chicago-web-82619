@@ -14,7 +14,10 @@ def map_to_square(numbers)
   numbers.map {|num| num * num}
 end
 
-def resuce_to_total(num)
+def resuce_to_total(array)
+  array.reduce 
+end
+
 
 
 
