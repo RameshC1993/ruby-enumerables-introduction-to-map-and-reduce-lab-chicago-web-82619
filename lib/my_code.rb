@@ -18,6 +18,7 @@ def reduce_to_total(array)
   array.reduce {|sum, num| num + sum}
 end
 
+def reduce_to_all_true()
 
 
 
