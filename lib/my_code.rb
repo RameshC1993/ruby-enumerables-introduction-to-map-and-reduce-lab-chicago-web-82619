@@ -7,7 +7,7 @@ def map_to_no_change(dunes)
 end
 
 def map_to_double(arrays)
-  return arrays * 2
+  arrays.map {|array| array * 2}
 end
 
 
