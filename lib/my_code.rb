@@ -18,7 +18,10 @@ def reduce_to_total(array)
   array.reduce {|sum, num| num + sum}
 end
 
-def reduce_to_all_true()
+def reduce_to_all_true(numbers)
+  numbers.reduce(100) {|num, sum| num + sum}
+end
+
 
 
 
