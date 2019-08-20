@@ -7,8 +7,9 @@ def map_to_no_change(dunes)
 end
 
 def map_to_double(numbers)
-  
+  numbers.map do {|num| num * 2}
 end
+
 
 
 
