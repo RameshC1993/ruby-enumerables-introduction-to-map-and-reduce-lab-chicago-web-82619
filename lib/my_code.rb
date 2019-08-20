@@ -3,6 +3,6 @@ def map_to_negativize(numbers)
 end
 
 def map_to_no_change(names)
-  names.map do {|name| name}
+  names.map do {|name|}
 end
 
