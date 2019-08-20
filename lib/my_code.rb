@@ -10,6 +10,10 @@ def map_to_double(arrays)
   arrays.map {|array| array * 2}
 end
 
+def map_to_square(numbers)
+  numbers.map {|num| num * num}
+end
+
 
 
 
